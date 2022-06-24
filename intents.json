@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting [ETH SCHEDULE]",
+        "Have a nice day [ETH SCHEDULE]" ,
+        "Bye! Come back again soon. [ETH SCHEDULE]",
+        "Oh we miss you already [ETH SCHEDULE]",
+        "Visit us later [ETH SCHEDULE]"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "application",
+      "patterns": [
+       "What is the application about?",
+       "Why this application only"
+      ],
+      "responses": [
+        "It leverages the use case of blockchain",
+        "Decentralised WEB3 application to schedule meetings"
+      ]
+    },
+    {
+      "tag": "working",
+      "patterns": [
+        "How does it work?",
+        "How to schedule a meeting?"
+        
+      ],
+      "responses": [
+        "Double click on the date where you want to schedule a meeting and a pop up appears then pay using your metamask wallet"
+        
+      ]
+    },
+    {
+      "tag": "metamask",
+      "patterns": [
+        "What is meta mask?",
+        "How to use metamask ?"
+        
+      ],
+      "responses": [
+        "Metamanask is a browser extension that allows you to interact with the Ethereum blockchain and can transfer your ethers"
+        
+      ]
+    },
+    {
+      "tag": "safe",
+      "patterns": [
+        "Is my date of schedule safe ?",
+        "What if anyone hamper my schedule changes?"
+        
+      ],
+      "responses": [
+        "Be safe, we are using a decentralized application to schedule meetings and everything stored in blockchain is immutable"
+        
+      ]
+    }
+  ]
+}
